@@ -10,7 +10,7 @@ import Dashboard from "../../screens/frontend/MainLayout";
 
 const FrontendMainLayout = () => {
   return (
-    <div className="bg-secondary-subtle">
+    <div className="bg-light">
       {/* Header */}
       <Header />
 

@@ -12,7 +12,7 @@ import {
 const FrontendHeader = () => {
     return (
         <Navbar
-            bg="light"
+            
             expand="lg"
             className="border-bottom"
             style={{ padding: '10px 0' }}

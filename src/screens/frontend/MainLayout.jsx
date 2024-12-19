@@ -2,31 +2,36 @@ import React from "react";
 
 const Dashboard = () => {
   return (
-    <div className="container py-4">
+    <div className="container py-4 border rounded shadow bg-white my-4">
       {/* Wrapping the whole dashboard with Bootstrap classes */}
-      <div className="border p-4 rounded bg-light">
+      <div className=" p-4">
         {/* Heading */}
-        <h2 className="mb-4">AFCT</h2>
+        <h2 className="mb-5">AFCT</h2>
 
         {/* Buttons Section */}
-        <div className="row mb-4 d-flex justify-content-evenly">
+        <div className="row mb-5 d-flex justify-content-evenly">
           <div className="col-auto">
-            <button className="btn btn-success px-5">Check Modules</button>
+            {/* Added mb-3 for margin between buttons */}
+            <button className="btn btn-success px-5 w-100">
+              Check Modules
+            </button>
           </div>
-          <div className="col-auto">
-            <button className="btn btn-outline-secondary px-5">
+          <div className="col-auto mb-3">
+            {/* Added mb-3 for margin between buttons */}
+            <button className="btn btn-outline-secondary px-5 w-100">
               New Patient - Getting Started
             </button>
           </div>
-          <div className="col-auto">
-            <button className="btn btn-outline-secondary px-5">
+          <div className="col-auto mb-3">
+            {/* Added mb-3 for margin between buttons */}
+            <button className="btn btn-outline-secondary px-5 w-100">
               Resource Center
             </button>
           </div>
         </div>
 
         {/* Table Section */}
-        <div className="row">
+        <div className="row shadow">
           <div className="col-12">
             <table className="table table-bordered">
               <thead>
@@ -50,7 +55,7 @@ const Dashboard = () => {
         </div>
 
         {/* Text Section */}
-        <div className="row mt-4 text-center">
+        <div className="row mt-5 text-center">
           <div className="col-12">
             <p>
               Keep an eye on the uploaded modules on reactforwellness platform
